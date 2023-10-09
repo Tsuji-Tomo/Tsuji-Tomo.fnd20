@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,6 +11,7 @@
 <body>
   <h1 id="Title">👼今日の運勢😈</h1>
   <div class = "box">
+    <p>あなたは何座？</p>    
     <select name="seiza">
       <option value="aries">おひつじ座</option>
       <option value="taurus">おうし座</option>
@@ -25,13 +25,19 @@
       <option value="capricorn">やぎ座</option>
       <option value="aquarius">みずがめ座</option>
       <option value="piscer">うお座</option>
-  </select> <br>
+  </select> <br><br>
     <button class="button" type="button">🔮占う🔮</button>
   </div>
 
   <br>
 
-  <div class = "bluebox"> 今日のあなたの運勢は？</div>
+  <h2 id="subtitle">あなたの運勢は...</h2>
+  <div class = "health"> 健康運</div>
+  <div class = "money"> 金運</div>
+  <div class = "work"> 仕事運</div>
+  <div class = "comment"></div>
+  <div id = "gif"></div>
+  </div>
   <script type="text/javascript" src="uranai.js"></script>
 </body>
 
