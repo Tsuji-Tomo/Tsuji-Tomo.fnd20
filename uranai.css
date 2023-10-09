@@ -30,3 +30,25 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.work {
+  width: 200px;
+  height: auto;
+  background-color: rgb(153, 243, 247);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.comment {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30pt;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#gif {
+  text-align: center;
+}
